@@ -4,18 +4,19 @@
 
 
 ### router
-
+```
 1. 动态router问题 ， link( route ) diloag ( router ) , page的打开方式可以自行选择
 
 2.store 共享分类数据
 
 3.Compoents  访问Store 
-
+```
 
 ====================
 
-vuex
+##vuex
 
+```
 ##状态树
 State {}
 
@@ -45,10 +46,10 @@ Store {
 	Getter ,
 	Dispatch 
 }
-
+```
 
 ### 异步action ， 无回调
-
+```
 actions: {
   async actionA ({ commit }) {
     commit('gotData', await getData())
@@ -59,7 +60,7 @@ actions: {
   }
 }
 
-
+```
 
 
 
